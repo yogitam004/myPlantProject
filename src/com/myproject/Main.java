@@ -3,7 +3,7 @@ package com.myproject;
 public class Main {
     public static void main(String[] args) {
 
-        Tree newPlant = new Tree("Oak", 5);
+        Trees newPlant = new Trees("Oak", 5);
         newPlant.getSpecies();
         newPlant.getAge();
 

@@ -19,7 +19,7 @@ public class Trees {
     }
 
     public void getAge() {
-        System.out.println("This tree is " + age + "years old.")
+        System.out.println("This tree is " + age + " years old.");
     }
     
     }

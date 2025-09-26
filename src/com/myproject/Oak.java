@@ -9,8 +9,7 @@ public class Oak extends Trees {
     //constructor
 
     public Oak(int age, String texture, String species, int branches) {
-        super(age);
-        super(species);
+        super(species, age);
         this.texture = texture;
         this.branches = branches;
     }
@@ -18,11 +17,11 @@ public class Oak extends Trees {
     //behaviors
 
     public void data() {
-        System.out.println("This" + species + "tree is " + age + "years old." + "It has" + texture + "and" + branches + "branches.")
+        System.out.println("This" + species + " tree is " + age + " years old." + " It is " + texture + " and has " + branches + " branches.");
     }
 
     public void fall() {
-        System.out.println("The" + species + "tree has dropped all of its branches: " + branches)
+        System.out.println("The" + species + " tree has dropped all of its branches: " + branches);
     }
 
 }
